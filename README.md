@@ -1,4 +1,4 @@
-# Krupa Bhalsod Portfolio
+#Portfolio
 
 A modern, responsive portfolio website built with PHP, showcasing projects, skills, and professional experience.
 
