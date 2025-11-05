@@ -1,0 +1,49 @@
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Database
+*.sql.bak
+database_backup/
+
+# Logs
+*.log
+logs/
+error.log
+access.log
+
+# Cache
+cache/
+tmp/
+temp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Uploads (exclude user uploads but keep structure)
+uploads/*
+!uploads/.gitkeep
+
+# Backup files
+*.bak
+*.backup
+
+# Sensitive files
+config/database.php
+.htpasswd
+
+# Node modules (if using build tools)
+node_modules/
+package-lock.json
+
+# Compiled assets
+dist/
+build/
